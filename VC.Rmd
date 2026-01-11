@@ -143,7 +143,7 @@ run_stress_test <- function(n_sim = 20) {
   
   # 参数设置
   n <- 100
-  p <- 200
+  p <- 500
   rhos <- c(0.2, 0.9) # 对比低相关和高相关
   snrs <- c(1, 5)     # 对比低信噪比和高信噪比
   
@@ -348,4 +348,5 @@ run_real_data_analysis <- function() {
 # 运行
 run_real_data_analysis()
 ```
+
 
